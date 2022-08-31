@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Piyush Patil</h1>
       </header>
     </div>
   );
