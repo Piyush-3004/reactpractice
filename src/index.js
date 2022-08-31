@@ -17,6 +17,7 @@ import Ifelse from './component/Ifelse';
 import NameList from './component/NameList';
 import Styling from './component/Styling';
 import ControllerComponent from './component/ControllerComponent';
+import Blz from './component/Blz';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +38,7 @@ root.render(
     <NameList />
     <Styling primary={true}/>
     <ControllerComponent />
+    <Blz />
   </React.StrictMode>
 );
 

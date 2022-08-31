@@ -17,7 +17,7 @@ class Counter extends Component {
     // This Doesnt Work in UI Because here , we are changing state without setState() Method
     // This.state.count+=1
     
-    //When we want to changw State based on previous state, pass the function as argument instead of an object
+    //When we want to change State based on previous state, pass the function as argument instead of an object
     this.setState((prevCount,props)=> ({ count:prevCount.count + props.value }))
     console.log(this.state.count)
     

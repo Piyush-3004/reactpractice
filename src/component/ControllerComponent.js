@@ -27,7 +27,7 @@ export class ControllerComponent extends Component {
         event.preventDefault()
     }
   render() {
-// we can use only username in html tag value rathet than this.state.username
+// we can use only username in html tag value rather than this.state.username
     // const {username,comments,topic} = this.state
     return (
       <div>ControllerComponent
